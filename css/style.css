@@ -2026,6 +2026,23 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 .product_adap {
   margin-bottom: 40px;
 }
+@media screen and (max-width: 1920px){
+  .container{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .container{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .container{
+    display: none;
+  }
+}
 
 @media screen and (max-width: 1000px) {
   .center {
@@ -2153,6 +2170,12 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     padding-bottom: 0; } }
 
 @media screen and (max-width: 768px) {
+  .center{
+    display:none;
+  }
+  .container{
+    display: block;
+  }
   .team .addproduct_title {
     display: none; }
   .top_user-main {
@@ -2252,6 +2275,12 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 @media screen and (max-width: 640px) {
+  .center{
+    display:none;
+  }
+  .container{
+    display: block;
+  }
   .areq .addproduct_title {
     display: none; }
   .zakaz_save .zitem {
@@ -2364,6 +2393,12 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 @media screen and (max-width: 480px) {
+  .center{
+    display:none;
+  }
+  .container{
+    display: block;
+  }
   .team_col {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2681,6 +2716,12 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 @media screen and (max-width: 425px) {
+  .center{
+    display:none;
+  }
+  .container{
+    display: block;
+  }
   .main_article_col-2 {
     padding: 15px 10px; }
   .main_article-price {
@@ -2724,11 +2765,29 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     }
   }
 
-@media screen and (max-width: 380px) {
+@
+.center{
+  display:none;
+} screen and (
+  .container{
+    display: block;
+  }max-width: 380px) {
+  .center{
+    display:none;
+  }
+  .container{
+    display: block;
+  }
   .addproduct_article {
     height: 100px; } }
 
 @media screen and (max-width: 320px) {
+  .center{
+    display:none;
+  }
+  .container{
+    display: block;
+  }
   .total_sum-price:after {
     display: none; }
   .main_article-title-2 {
