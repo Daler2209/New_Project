@@ -2043,8 +2043,10 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     display: none;
   }
 }
-
 @media screen and (max-width: 1000px) {
+  .container{
+    display: none;
+  }
   .center {
     padding: 0 20px;
     -webkit-box-sizing: border-box;
@@ -2148,6 +2150,9 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     width: 250px; } }
 
 @media screen and (max-width: 850px) {
+  .container{
+    display: none;
+  }
   .profil {
     width: 100%;
     -webkit-box-pack: justify;
@@ -2171,7 +2176,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 
 @media screen and (max-width: 768px) {
   .center{
-    display:none;
+    display: none;
   }
   .container{
     display: block;
@@ -2276,7 +2281,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 
 @media screen and (max-width: 640px) {
   .center{
-    display:none;
+    display: none;
   }
   .container{
     display: block;
@@ -2394,7 +2399,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 
 @media screen and (max-width: 480px) {
   .center{
-    display:none;
+    display: none;
   }
   .container{
     display: block;
@@ -2717,7 +2722,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 
 @media screen and (max-width: 425px) {
   .center{
-    display:none;
+    display: none;
   }
   .container{
     display: block;
@@ -2725,9 +2730,8 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   .main_article_col-2 {
     padding: 15px 10px; }
   .main_article-price {
+    
     font-size: 16px; } 
-
-
     .myorder_title {
       display: none;
     }
@@ -2765,15 +2769,9 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     }
   }
 
-@
-.center{
-  display:none;
-} screen and (
-  .container{
-    display: block;
-  }max-width: 380px) {
+@media screen and (max-width: 380px) {
   .center{
-    display:none;
+    display: none;
   }
   .container{
     display: block;
@@ -2783,7 +2781,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 
 @media screen and (max-width: 320px) {
   .center{
-    display:none;
+    display: none;
   }
   .container{
     display: block;
