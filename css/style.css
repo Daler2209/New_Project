@@ -2626,6 +2626,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
       width: auto;
     }
     .wrapper {
+      padding-bottom: 15px;
       background: transparent;
     }
     .abalance {
