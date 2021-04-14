@@ -2026,6 +2026,9 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 .product_adap {
   margin-bottom: 40px;
 }
+.footer_content{
+  padding-top: 70px;
+}
 @media screen and (max-width: 1920px){
   .container{
     display: none;
