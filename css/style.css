@@ -2629,7 +2629,6 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
       width: auto;
     }
     .wrapper {
-      padding-bottom: 15px;
       background: transparent;
     }
     .abalance {
@@ -2805,8 +2804,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 .container{
-    padding: 0 15px;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 .card-list{
     column-count: 2;
