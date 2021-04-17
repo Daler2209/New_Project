@@ -1696,7 +1696,6 @@ span.top_nav-span.active {
     position: relative;
     font-size: 18px; }
     .total_sum-price:after {
-      content: '................... ';
       position: absolute;
       left: -66px;
       bottom: 0; }
@@ -2206,6 +2205,12 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     padding-bottom: 0; } }
 
 @media screen and (max-width: 768px) {
+  .total{
+    margin: 0;
+  }
+  .main_article{
+    margin-bottom: 30px;
+  }
   .product_3{
     margin-top: 15px;
   }
@@ -2611,6 +2616,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
       width: 90%;
       margin: 0 auto; }
   .main_article-2 {
+    margin-bottom: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2638,8 +2644,6 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
       -webkit-box-ordinal-group: 5;
       -ms-flex-order: 4;
       order: 4; }
-    .main_article-2 .main_article-img {
-      display: none; }
   .order_price {
     width: 91%; }
   .product_article {
