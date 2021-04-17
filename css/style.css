@@ -558,6 +558,7 @@ input, button {
     }
 
 .total {
+  margin-left: 30px;
   padding: 30px;
   border-radius: 12px;
   background: #fff;
@@ -2033,6 +2034,9 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   padding-top: 70px;
 }
 @media screen and (max-width: 1920px){
+  .product_3{
+    margin-top: 15px;
+  }
   .content{
     margin-top: 15px;
   }
@@ -2621,7 +2625,6 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     .main_article-2 .main_article_col {
       -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
-      order: 2;
       padding-bottom: 0; }
     .main_article-2 .main_article-btn {
       display: block;
