@@ -1139,6 +1139,8 @@ span.top_nav-span.active {
     margin-bottom: 70px;
      }
   .abalance_item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
     background: #F9F9F9;
     border-radius: 7px;
     padding: 29px;
@@ -2193,9 +2195,15 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     padding-bottom: 0; } }
 
 @media screen and (max-width: 768px) {
+  .addproduct_title-2{
+    margin-bottom: 10px;
+  }
   .team_ref span {
     margin-left: 15px;
 }
+  .addproduct_col{
+    padding: 25px 5px 25px 30px;
+  }
   .addproduct_col.team_col.alinks{
     display: flex;
     justify-content: center;
@@ -2250,8 +2258,6 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  .mtop .top_logo {
-    display: none; }
   .top_nav {
     display: none; }
   .top_lang {
@@ -2314,8 +2320,14 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 @media screen and (max-width: 640px) {
+  .addproduct_title-2{
+    margin-bottom: 10px;
+  }
   .team_ref span {
     margin-left: 15px;
+}
+.addproduct_col{
+  padding: 25px 5px 25px 30px;
 }
   .addproduct_col.team_col.alinks{
     display: flex;
@@ -2450,8 +2462,14 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 @media screen and (max-width: 480px) {
+  .addproduct_title-2{
+    margin-bottom: 10px;
+  }
   .team_ref span {
     margin-left: 15px;
+}
+.addproduct_col{
+  padding: 25px 5px 25px 30px;
 }
   .addproduct_col.team_col.alinks{
     display: flex;
@@ -2597,8 +2615,6 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   .addproduct_article {
     background: #FFFFFF;
     border-radius: 7px; }
-  .addproduct_title-2 {
-    display: none; }
   .myorder_product_img, .myorder_product_col {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
@@ -2789,8 +2805,14 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 @media screen and (max-width: 425px) {
+  .addproduct_title-2{
+    margin-bottom: 10px;
+  }
   .team_ref span {
     margin-left: 15px;
+}
+.addproduct_col{
+  padding: 25px 5px 25px 30px;
 }
   .addproduct_col.team_col.alinks{
     display: flex;
@@ -2856,8 +2878,14 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 @media screen and (max-width: 380px) {
+  .addproduct_title-2{
+    margin-bottom: 10px;
+  }
   .team_ref span {
     margin-left: 15px;
+}
+.addproduct_col{
+  padding: 25px 5px 25px 30px;
 }
   .addproduct_col.team_col.alinks{
     display: flex;
@@ -2886,6 +2914,12 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 @media screen and (max-width: 320px) {
   .team_ref span {
     margin-left: 15px;
+}
+.addproduct_title-2{
+  margin-bottom: 10px;
+}
+.addproduct_col{
+  padding: 25px 5px 25px 30px;
 }
   .addproduct_col.team_col.alinks{
     display: flex;
