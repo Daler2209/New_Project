@@ -26,6 +26,10 @@ body {
 ol, ul {
   list-style: none; }
 
+.p-0{
+  padding: 0 !important;
+}
+
 * {
   line-height: 1;
   margin: 0;
@@ -52,9 +56,15 @@ input, button {
   box-sizing: inherit; }
 
 .center {
+  padding-top: 30px;
+  margin-top: 30px;
   max-width: 970px;
   width: 100%;
   margin: 0 auto; }
+
+  .center-mobil{
+    margin: 0 15px;
+  }
 
 .top {
   padding: 0 30px;
@@ -72,7 +82,6 @@ input, button {
   background: #fff;
   height: 73px; }
   .top_nav {
-    margin-left: 66px;
     padding-top: 7px; 
     display: -webkit-box;
     display: -ms-flexbox;
@@ -242,6 +251,7 @@ input, button {
       color: #1E0E62; }
     .main_article_img {
       display: inline-block;
+      width: 100%;
       height: 470px; }
     .main_article-word {
       font-size: 16px;
@@ -558,7 +568,6 @@ input, button {
     }
 
 .total {
-  margin-left: 30px;
   padding: 30px;
   border-radius: 12px;
   background: #fff;
@@ -1973,7 +1982,6 @@ img.payment_article-image {
 
 .admin_stat {
   width: 94%;
-  margin-left: 0px;
   padding: 33px 27px;
   padding-bottom: 10px;
   margin-bottom: 70px;
@@ -2078,7 +2086,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     display: none;
   }
   .center {
-    padding: 0 20px;
+    padding: 30px 20px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
     .top_user {
@@ -2150,13 +2158,13 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   .category {
     width: 100%; }
   .right {
+    justify-content: center;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
@@ -2177,6 +2185,10 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     width: 250px; } }
 
 @media screen and (max-width: 850px) {
+  
+  .center{
+    padding: 30px 20px;
+  }
   .container_market{
     display: none;
   }
@@ -2205,22 +2217,32 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     padding-bottom: 0; } }
 
 @media screen and (max-width: 768px) {
-  .total{
+ 
+  .center-mobil{
     margin: 0;
   }
-  .main_article{
+  .main_article_m{
+    margin: 0;
+  }
+  .main_article_col_m{
+    display: none;
+  }
+  .content_mobile{
+    margin: 0;
+  }
+  .total{
     margin-bottom: 30px;
   }
+  
   .product_3{
     margin-top: 15px;
   }
   .container-adm{
     display: block;
-    margin: 1%;
   }
   .category{
     margin: 0;
-    border-radius: 12px;
+    border-radius: 0px;
   }
   .top_logo{
     display: none;
@@ -2253,6 +2275,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     display: none;
   }
   .container{
+    padding: 0;
     display: block;
   }
   .team .addproduct_title {
@@ -2308,8 +2331,6 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   .amarket {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr; }
-  .amarket_item {
-    margin-bottom: 30px; }
   .content_mobile {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
@@ -2358,7 +2379,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
   .category{
     margin: 0;
-    border-radius: 12px;
+    border-radius: 0px;
   }
   .top_logo{
     display: none;
@@ -2584,11 +2605,10 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   .apay_top-item {
     border-radius: 0;
     background: none;
-    padding: 15px;
+    padding: 15px 0;
     margin-top: 0;
     margin-bottom: 0; }
   .apay_bottom {
-    margin: 30px 15px 120px;
      }
   .top {
     padding: 0 15px;
@@ -2616,7 +2636,6 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
       width: 90%;
       margin: 0 auto; }
   .main_article-2 {
-    margin-bottom: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2839,7 +2858,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
       margin: 0 15px 15px;
     }
     .total {
-      margin: 0 15px 30px;
+      margin: 30px 15px 30px;
     }
     .total_btn {
       background: #FFCE33;
