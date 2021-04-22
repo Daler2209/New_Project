@@ -30,6 +30,15 @@ ol, ul {
   padding: 0 !important;
 }
 
+.center-mobil{
+  display:flex;
+  justify-content: center;
+}
+
+.d-bloc{
+  display: block !important;
+}
+
 * {
   line-height: 1;
   margin: 0;
@@ -118,7 +127,7 @@ input, button {
     -ms-flex-align: center;
     align-items: center; }
   .top_lang {
-    margin-right: 85px;
+    margin-right: 40px;
     border: 0;
     color: #1E0E62;
     width: 50px; }
@@ -2061,6 +2070,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
 @media screen and (max-width: 1440px){
   .category{
     margin: 30px 0 ;
+    margin-top: 0;
   }
   .container_market{
     display: none;
@@ -2079,6 +2089,9 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 }
 @media screen and (max-width: 1000px) {
+  .category{
+    margin-top: 0;
+  }
   .container_market{
     display: none;
   }
@@ -2170,7 +2183,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     align-items: stretch;
     margin-bottom: 30px; }
   .recommend, .why {
-    width: 48%;
+    width: 100%;
     margin-bottom: 0; }
   .top_nav-link {
     padding: 15px; }
@@ -2178,7 +2191,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   .myorder {
     width: auto; }
   .order_link {
-    width: 150px; }
+    width: 200px; }
   .top_lang-2 {
     display: none; }
   .order_link-2 {
@@ -2217,7 +2230,13 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     padding-bottom: 0; } }
 
 @media screen and (max-width: 768px) {
- 
+
+  .content{
+    margin-top: 0;
+  }
+  .addproduct_img{
+    display: none;
+  }
   .center-mobil{
     margin: 0;
   }
@@ -2320,7 +2339,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   .main_article {
     width: 100%; }
     .main_article:last-child {
-      margin-bottom: 80px; }
+      margin-bottom: 70px; }
   .right {
     margin-bottom: 80px; }
   .main_article_img img {
@@ -2371,6 +2390,18 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   }
 
 @media screen and (max-width: 640px) {
+  .zorder_top{
+    grid-template-columns: 1fr;
+  }
+  .zakaz_save{
+    background: transparent;
+  }
+  .market_admin-bon{
+    margin-right: 18px;
+  }
+  .market_admin-sum{
+    font-size: 20px;
+  }
   .product_3{
     margin-top: 15px;
   }
@@ -2981,7 +3012,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     margin-bottom: 10px;
   }
   .team_ref span {
-    margin-left: 15px;
+    margin-left: 2px;
 }
 .addproduct_col{
   padding: 25px 5px 25px 30px;
