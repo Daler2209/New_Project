@@ -2231,7 +2231,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     margin-bottom: 30px;
   }
   .views{
-    width: 100%;
+    width: auto;
   }
   .category{
     justify-content: space-between;
