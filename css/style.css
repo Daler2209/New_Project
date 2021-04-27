@@ -2231,7 +2231,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     margin-bottom: 30px;
   }
   .views{
-    width: auto;
+    width: 100%;
   }
   .category{
     justify-content: space-between;
@@ -2277,6 +2277,9 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     padding-bottom: 0; } }
 
 @media screen and (max-width: 768px) {
+  .views{
+    width: auto;
+  }
   .main_article_col{
     padding: 20px 30px 8px;
   }
