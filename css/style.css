@@ -2872,8 +2872,6 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
   .payment_article-col {
     width: 100%;
     padding: 0 20px; }
-  .payment_link-2 {
-    display: none; }
   .admin {
     padding: 20px; }
   .admin_bonus .acard_item {
