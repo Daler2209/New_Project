@@ -1955,6 +1955,7 @@ img.payment_article-image {
 
 .payment_article_col-3 {
   padding: 0 4px;
+  padding-bottom: 20px;
 }
 
 .payment_article-zam {
@@ -2277,6 +2278,7 @@ body#main .main_article_col-2, body#product .main_article_col-2, body#product_ad
     padding-bottom: 0; } }
 
 @media screen and (max-width: 768px) {
+  
   .views{
     width: auto;
   }
